@@ -1,0 +1,7 @@
+//As per my understanding , the expected scenario is listed below:
+Feature: Google Search Text Box 
+Scenario: The total number of Auto suggestions and its count that google displays
+    Given   A opened web browser with Google home page 
+    When    The user enters "Test Automation" into the Google search Text Box
+    Then    List of all the Auto suggestion related to "Test Automation" should display
+    Then    List of Total Auto suggestion Count of "Test Automation" should display and print  
